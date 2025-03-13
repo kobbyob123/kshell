@@ -8,12 +8,13 @@ int main(){
 
     while (flag == 1){
         printf("kobby/osh --> ");
-        // get some characters from standard input
-        // split them
-        // create a fork
-        // run an execve(2) to run the args
-        // handle errors
-        // look out for exit codes
+        // 1. get some characters from standard input 
+        //    in an array form
+        // 2. split them
+        // 3. create a fork
+        // 4. run an execve(2) to run the args
+        // o. handle errors
+        // o. look out for exit codes
     }
     return (0);
 }
