@@ -24,11 +24,11 @@ int main(){
     }
 
     else if (process_id == 0){
-        printf("Child Process ID = %d \n", process_id);
+        printf("Child Process id = %d \n", process_id);
     }
 
     else{
-        printf("Parent Process ID = %d \n", process_id);
+        printf("Parent Process id = %d \n", process_id);
     }
 
     // comment the whole code and uncomment only the one below
