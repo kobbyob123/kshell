@@ -13,8 +13,8 @@ int main(){
         // 2. split them
         // 3. create a fork
         // 4. run an execve(2) to run the args
-        // o. handle errors
-        // o. look out for exit codes
+        // 5. handle errors
+        // 6. look out for exit codes
     }
     return (0);
 }
