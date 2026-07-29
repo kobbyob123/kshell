@@ -10,7 +10,7 @@ int main(int argc, char * argv[]){
     int num;
 
     while (flag < 5){
-        printf("kobby/osh --> ");
+        printf("kobby/osh --> \n");
         scanf("%d", &num);
         flag++;
     }
