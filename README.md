@@ -35,7 +35,7 @@ Most developers use a shell every day without thinking about what happens under 
 ## Features
 
 **Currently implemented:**
-- Interactive prompt loop (`kobby/osh -->`)
+- Interactive prompt loop (`kobby/ksh -->`)
 - `fork()` demonstration — correctly distinguishes parent and child processes
 
 **Planned (see [Roadmap](#roadmap)):**
