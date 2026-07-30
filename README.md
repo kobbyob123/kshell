@@ -77,7 +77,7 @@ Here is what that looks like in `main.c` (work in progress):
 
 ```c
 while (flag == 1) {
-    printf("kobby/osh --> ");
+    printf("kobby/ksh --> ");
     // 1. Read input from stdin
     // 2. Split/tokenize the input
     // 3. fork() to create a child process
@@ -124,7 +124,7 @@ gcc main.c -o main.x
 Or use the provided build script:
 
 ```bash
-bash oshell.sh
+bash kshell.sh
 ```
 
 > **Note:** Compiled binaries (`.x` files) are excluded from version control via `.gitignore`.
@@ -147,7 +147,7 @@ Once built, launch the shell:
 You will see the custom prompt:
 
 ```
-kobby/osh -->
+kobby/ksh -->
 ```
 
 From here, type commands as you would in any shell. Exit with `Ctrl+C` (until a proper `exit` built-in is implemented).
@@ -156,7 +156,7 @@ From here, type commands as you would in any shell. Exit with `Ctrl+C` (until a 
 
 ## Roadmap
 
-- [ ] Read a full line of input from `stdin`
+- [x] Read a full line of input from `stdin`
 - [ ] Tokenize input into command + argument array (`strtok`)
 - [ ] Execute commands with `execve(2)`
 - [ ] Wait for child process to finish with `waitpid()`
